@@ -1,4 +1,3 @@
-
 import { useParams, Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import './ListingDetails.css';
@@ -28,6 +27,7 @@ const ListingDetails = ({ listings }) => {
         <p><strong>Bedrooms:</strong> {listing.bedrooms}</p>
         <p><strong>Bathrooms:</strong> {listing.bathrooms}</p>
         <p><strong>Price:</strong> ${listing.price} per night</p>
+        <p><strong>Description:</strong> {listing.description}</p> {/* Adding description */}
 
         <div className="booking-button">
           <Link to={`/book/${listing.id}`} className="book-now-button">Book Now</Link>
@@ -48,6 +48,7 @@ ListingDetails.propTypes = {
       bedrooms: PropTypes.number.isRequired,
       bathrooms: PropTypes.number.isRequired,
       price: PropTypes.number.isRequired,
+      description: PropTypes.string.isRequired, // Adding description in PropTypes
     })
   ).isRequired,
 };
