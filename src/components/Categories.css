@@ -1,0 +1,124 @@
+
+.categories-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 20px;
+}
+
+.category-button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+.category-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.category-button.active {
+  background: linear-gradient(135deg, #28a745, #218838);
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .categories {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+/* Listings Grid */
+.listings {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+  background: #f8f9fa; /* Light background for contrast */
+  border-radius: 10px;
+}
+
+/* Listing Card */
+.listing-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.listing-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.listing-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-bottom: 2px solid #007bff;
+}
+
+.listing-details {
+  padding: 15px;
+  text-align: left;
+}
+
+.listing-details h3 {
+  margin: 10px 0;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #343a40;
+}
+
+.listing-details p {
+  margin: 8px 0;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.listing-price {
+  color: #28a745;
+  font-weight: 600;
+}
+
+.details-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+}
+
+.details-button:hover {
+  background: #0056b3;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+  .listings {
+    grid-template-columns: 1fr;
+  }
+}
