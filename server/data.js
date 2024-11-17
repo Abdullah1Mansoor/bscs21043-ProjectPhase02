@@ -11,6 +11,8 @@ const listings = [
     category: 'Luxury',
     location: 'New York',
     image: 'https://th.bing.com/th/id/OIP.Rv5BkyJ19WG-LIaiWyzujgHaE8?w=301&h=200&c=7&r=0&o=5&pid=1.7',
+    description:
+      'A charming and cozy apartment located in the bustling heart of New York City. This fully furnished apartment features a modern interior design, complete with a well-equipped kitchen, comfortable living space, and breathtaking views of the city skyline. It’s perfect for a family or a small group of friends looking to explore the Big Apple. Attractions such as Central Park, Times Square, and iconic restaurants are just a short walk away.',
   },
   {
     id: 2,
@@ -23,6 +25,8 @@ const listings = [
     category: 'Luxury',
     location: 'Miami',
     image: 'https://th.bing.com/th/id/R.5a7af7ca54fcef640345d9f313641eed?rik=J7gN9bb5lv96DQ&pid=ImgRaw&r=0',
+    description:
+      'A charming and cozy apartment located in the bustling heart of New York City. This fully furnished apartment features a modern interior design, complete with a well-equipped kitchen, comfortable living space, and breathtaking views of the city skyline. It’s perfect for a family or a small group of friends looking to explore the Big Apple. Attractions such as Central Park, Times Square, and iconic restaurants are just a short walk away.',
   },
   {
     id: 3,
@@ -35,6 +39,8 @@ const listings = [
     category: 'Cabins',
     location: 'Denver',
     image: 'https://th.bing.com/th/id/OIP.Rv5BkyJ19WG-LIaiWyzujgHaE8?w=301&h=200&c=7&r=0&o=5&pid=1.7',
+    description:
+      'A charming and cozy apartment located in the bustling heart of New York City. This fully furnished apartment features a modern interior design, complete with a well-equipped kitchen, comfortable living space, and breathtaking views of the city skyline. It’s perfect for a family or a small group of friends looking to explore the Big Apple. Attractions such as Central Park, Times Square, and iconic restaurants are just a short walk away.',
   },
   {
     id: 4,
@@ -47,6 +53,8 @@ const listings = [
     category: 'Cabins',
     location: 'Los Angeles',
     image: 'https://th.bing.com/th/id/OIP.Rv5BkyJ19WG-LIaiWyzujgHaE8?w=301&h=200&c=7&r=0&o=5&pid=1.7',
+    description:
+      'A charming and cozy apartment located in the bustling heart of New York City. This fully furnished apartment features a modern interior design, complete with a well-equipped kitchen, comfortable living space, and breathtaking views of the city skyline. It’s perfect for a family or a small group of friends looking to explore the Big Apple. Attractions such as Central Park, Times Square, and iconic restaurants are just a short walk away.',
   },
   {
     id: 5,
@@ -59,6 +67,8 @@ const listings = [
     category: 'Cabins',
     location: 'Malibu',
     image: 'https://th.bing.com/th/id/OIP.Rv5BkyJ19WG-LIaiWyzujgHaE8?w=301&h=200&c=7&r=0&o=5&pid=1.7',
+    description:
+      'A charming and cozy apartment located in the bustling heart of New York City. This fully furnished apartment features a modern interior design, complete with a well-equipped kitchen, comfortable living space, and breathtaking views of the city skyline. It’s perfect for a family or a small group of friends looking to explore the Big Apple. Attractions such as Central Park, Times Square, and iconic restaurants are just a short walk away.',
   },
   {
     id: 6,
@@ -71,6 +81,8 @@ const listings = [
     category: 'Trending',
     location: 'San Francisco',
     image: 'https://th.bing.com/th/id/OIP.Rv5BkyJ19WG-LIaiWyzujgHaE8?w=301&h=200&c=7&r=0&o=5&pid=1.7',
+    description:
+      'A charming and cozy apartment located in the bustling heart of New York City. This fully furnished apartment features a modern interior design, complete with a well-equipped kitchen, comfortable living space, and breathtaking views of the city skyline. It’s perfect for a family or a small group of friends looking to explore the Big Apple. Attractions such as Central Park, Times Square, and iconic restaurants are just a short walk away.',
   },
   {
     id: 7,
@@ -83,6 +95,8 @@ const listings = [
     category: 'Trending',
     location: 'Chicago',
     image: 'https://th.bing.com/th/id/OIP.Rv5BkyJ19WG-LIaiWyzujgHaE8?w=301&h=200&c=7&r=0&o=5&pid=1.7',
+    description:
+      'A charming and cozy apartment located in the bustling heart of New York City. This fully furnished apartment features a modern interior design, complete with a well-equipped kitchen, comfortable living space, and breathtaking views of the city skyline. It’s perfect for a family or a small group of friends looking to explore the Big Apple. Attractions such as Central Park, Times Square, and iconic restaurants are just a short walk away.',
   },
   {
     id: 8,
@@ -95,6 +109,8 @@ const listings = [
     category: 'Trending',
     location: 'Nashville',
     image: 'https://th.bing.com/th/id/OIP.Rv5BkyJ19WG-LIaiWyzujgHaE8?w=301&h=200&c=7&r=0&o=5&pid=1.7',
+    description:
+      'A charming and cozy apartment located in the bustling heart of New York City. This fully furnished apartment features a modern interior design, complete with a well-equipped kitchen, comfortable living space, and breathtaking views of the city skyline. It’s perfect for a family or a small group of friends looking to explore the Big Apple. Attractions such as Central Park, Times Square, and iconic restaurants are just a short walk away.',
   },
   {
     id: 9,
@@ -107,6 +123,8 @@ const listings = [
     category: 'Unique Stays',
     location: 'Hamptons',
     image: 'https://th.bing.com/th/id/OIP.Rv5BkyJ19WG-LIaiWyzujgHaE8?w=301&h=200&c=7&r=0&o=5&pid=1.7',
+    description:
+      'A charming and cozy apartment located in the bustling heart of New York City. This fully furnished apartment features a modern interior design, complete with a well-equipped kitchen, comfortable living space, and breathtaking views of the city skyline. It’s perfect for a family or a small group of friends looking to explore the Big Apple. Attractions such as Central Park, Times Square, and iconic restaurants are just a short walk away.',
   },
   {
     id: 10,
@@ -119,6 +137,8 @@ const listings = [
     category: 'Unique Stays',
     location: 'Texas Hill Country',
     image: 'https://th.bing.com/th/id/OIP.Rv5BkyJ19WG-LIaiWyzujgHaE8?w=301&h=200&c=7&r=0&o=5&pid=1.7',
+    description:
+      'A charming and cozy apartment located in the bustling heart of New York City. This fully furnished apartment features a modern interior design, complete with a well-equipped kitchen, comfortable living space, and breathtaking views of the city skyline. It’s perfect for a family or a small group of friends looking to explore the Big Apple. Attractions such as Central Park, Times Square, and iconic restaurants are just a short walk away.',
   },
 ];
 
