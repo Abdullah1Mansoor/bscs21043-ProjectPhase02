@@ -1,7 +1,7 @@
-
 import { useParams, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import PropTypes from 'prop-types';
+//import jwt_decode from 'jwt-decode'; // Correct import for jwt-decode
 import './BookingPage.css';
 
 const BookingPage = ({ listings }) => {
@@ -39,23 +39,45 @@ const BookingPage = ({ listings }) => {
   };
 
   const handleConfirmBooking = async () => {
-    // Send a POST request to the backend to confirm the booking
+    const token = localStorage.getItem('token'); // Get the token from localStorage
+    
+    // If the token doesn't exist, show an error message
+    if (!token) {
+      setErrorMessage('You need to log in first.');
+      return;
+    }
+  
+    // Decode the token to check for expiry (using jwt-decode)
+    try {
+      const decoded = jwt_decode(token);
+      const currentTime = Date.now() / 1000; // Get the current time in seconds
+      if (decoded.exp < currentTime) {
+        setErrorMessage('Your session has expired. Please log in again.');
+        return;
+      }
+    } catch (error) {
+      setErrorMessage('Invalid token.');
+      return;
+    }
+  
+    // Proceed with the booking if the token is valid
     const bookingDetails = {
       listingId: listing.id,
       checkInDate,
       checkOutDate,
       totalPrice,
     };
-
+  
     try {
       const response = await fetch('http://localhost:5000/api/bookings', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
+          'Authorization': `Bearer ${token}`, // Include the token in the Authorization header
         },
         body: JSON.stringify(bookingDetails),
       });
-
+  
       const data = await response.json();
       if (response.ok) {
         alert(`Booking confirmed for ${listing.title}!\nTotal Price: $${totalPrice}`);
@@ -63,7 +85,7 @@ const BookingPage = ({ listings }) => {
       } else {
         setErrorMessage(data.error || 'Booking failed. Please try again.');
       }
-    } catch {
+    } catch (error) {
       setErrorMessage('Error confirming booking. Please try again later.');
     }
   };
