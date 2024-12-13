@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Abdullah Mansoor",
+    "email": "abd1@example.com",
+    "password": "$2a$10$34CWX4a0uolu2oTvuTgKh.8usSwFkNZQuI5Q3XZHqucCNa1X5Ias2",
+    "isAdmin": false
+  },
+  {
+    "name": "Ahmed Ali",
+    "email": "abd2@example.com",
+    "password": "$2a$10$34CWX4a0uolu2oTvuTgKh.8usSwFkNZQuI5Q3XZHqucCNa1X5Ias2",
+    "isAdmin": false
+  },
+  {
+    "name": "Sara Khan",
+    "email": "abd3@example.com",
+    "password": "$2a$10$34CWX4a0uolu2oTvuTgKh.8usSwFkNZQuI5Q3XZHqucCNa1X5Ias2",
+    "isAdmin": false
+  },
+  {
+    "name": "Ayesha Malik",
+    "email": "abd4@example.com",
+    "password": "$2a$10$34CWX4a0uolu2oTvuTgKh.8usSwFkNZQuI5Q3XZHqucCNa1X5Ias2",
+    "isAdmin": false
+  },
+  {
+    "name": "Bilal Qureshi",
+    "email": "abd5@example.com",
+    "password": "$2a$10$34CWX4a0uolu2oTvuTgKh.8usSwFkNZQuI5Q3XZHqucCNa1X5Ias2",
+    "isAdmin": false
+  },
+  {
+    "name": "cris",
+    "email": "cr@gmail.com",
+    "password": "$2a$10$34CWX4a0uolu2oTvuTgKh.8usSwFkNZQuI5Q3XZHqucCNa1X5Ias2",
+    "isAdmin": false
+  },
+  {
+    "name": "abd",
+    "email": "abdullah@gmail.com",
+    "password": "$2a$10$34CWX4a0uolu2oTvuTgKh.8usSwFkNZQuI5Q3XZHqucCNa1X5Ias2",
+    "isAdmin": true
+  },
+  {
+    "name": "a1",
+    "email": "a1@gmail.com",
+    "password": "$2a$10$34CWX4a0uolu2oTvuTgKh.8usSwFkNZQuI5Q3XZHqucCNa1X5Ias2",
+    "isAdmin": false
+  },
+  {
+    "name": "a2",
+    "email": "a2@gmail.com",
+    "password": "$2a$10$34CWX4a0uolu2oTvuTgKh.8usSwFkNZQuI5Q3XZHqucCNa1X5Ias2",
+    "isAdmin": false
+  },
+  {
+    "name": "a3",
+    "email": "a3@gmail.com",
+    "password": "$2a$10$34CWX4a0uolu2oTvuTgKh.8usSwFkNZQuI5Q3XZHqucCNa1X5Ias2",
+    "isAdmin": false
+  },
+  {
+    "name": "a4",
+    "email": "a4@gmail.com",
+    "password": "$2a$10$34CWX4a0uolu2oTvuTgKh.8usSwFkNZQuI5Q3XZHqucCNa1X5Ias2",
+    "isAdmin": false
+  },
+  {
+    "name": "a5",
+    "email": "a5@gmail.com",
+    "password": "$2a$10$34CWX4a0uolu2oTvuTgKh.8usSwFkNZQuI5Q3XZHqucCNa1X5Ias2",
+    "isAdmin": false
+  },
+  {
+    "name": "a6",
+    "email": "a6@gmail.com",
+    "password": "$2a$10$34CWX4a0uolu2oTvuTgKh.8usSwFkNZQuI5Q3XZHqucCNa1X5Ias2",
+    "isAdmin": false
+  },
+  {
+    "name": "a7",
+    "email": "a7@gmail.com",
+    "password": "$2a$10$34CWX4a0uolu2oTvuTgKh.8usSwFkNZQuI5Q3XZHqucCNa1X5Ias2",
+    "isAdmin": false
+  },
+  {
+    "name": "messi",
+    "email": "m@gmail.com",
+    "password": "$2a$10$F5wHAka2F90VmCf1ON.8nuE6fBI/AhNVEOXnm6k5XeFAYpZKcJqni",
+    "isAdmin": false
+  }
+]
