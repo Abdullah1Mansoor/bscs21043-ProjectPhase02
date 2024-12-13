@@ -1,0 +1,69 @@
+[
+    {
+      "id": 1,
+      "title": "Cozy Apartment",
+      "type": "Entire apartment",
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "price": 100,
+      "category": "Luxury",
+      "location": "New York",
+      "image": "https://th.bing.com/th/id/OIP.Rv5BkyJ19WG-LIaiWyzujgHaE8?w=301&h=200&c=7&r=0&o=5&pid=1.7",
+      "description": "A modern and fully furnished apartment in the heart of New York City. Perfect for families or groups exploring the city."
+    },
+    {
+      "id": 2,
+      "title": "Beachfront Villa",
+      "type": "Villa",
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "price": 250,
+      "category": "Luxury",
+      "location": "Miami",
+      "image": "https://th.bing.com/th/id/OIP.Rv5BkyJ19WG-LIaiWyzujgHaE8?w=301&h=200&c=7&r=0&o=5&pid=1.7",
+      "description": "A luxurious villa offering breathtaking ocean views and direct beach access in sunny Miami."
+    },
+    {
+      "id": 3,
+      "title": "Beachfront Villa",
+      "type": "Villa",
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "price": 250,
+      "category": "Luxury",
+      "location": "Miami",
+      "image": "https://th.bing.com/th/id/OIP.Rv5BkyJ19WG-LIaiWyzujgHaE8?w=301&h=200&c=7&r=0&o=5&pid=1.7",
+      "description": "A luxurious villa offering breathtaking ocean views and direct beach access in sunny Miami."
+    },
+    {
+      "id": 4,
+      "title": "Beachfront Villa",
+      "type": "Villa",
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "price": 250,
+      "category": "Luxury",
+      "location": "Miami",
+      "image": "https://th.bing.com/th/id/OIP.Rv5BkyJ19WG-LIaiWyzujgHaE8?w=301&h=200&c=7&r=0&o=5&pid=1.7",
+      "description": "A luxurious villa offering breathtaking ocean views and direct beach access in sunny Miami."
+    },
+    {
+      "id": 5,
+      "title": "Beachfront Villa",
+      "type": "Villa",
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "price": 250,
+      "category": "Luxury",
+      "location": "Miami",
+      "image": "https://th.bing.com/th/id/OIP.Rv5BkyJ19WG-LIaiWyzujgHaE8?w=301&h=200&c=7&r=0&o=5&pid=1.7",
+      "description": "A luxurious villa offering breathtaking ocean views and direct beach access in sunny Miami."
+    }
+    
+  ]
+  
